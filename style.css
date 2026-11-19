@@ -1,17 +1,4 @@
-@font-face {
-  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-  font-family: 'Iceland';
-  font-style: normal;
-  font-weight: 400;
-  src: url('../assets/fonts/iceland-v22-latin-regular.woff2') format('woff2'); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-}
 
-*{
-    margin: 0;
-    box-sizing: border-box;
-    font-family: 'Iceland';
-    scroll-behavior: smooth;
-}
 html{
    font-size: 16px;
 }
@@ -75,7 +62,7 @@ a{
  }
 
  .main-content{
-    background-color: rgb(12, 16, 59);
+    background-color: var(--bg-color-dark);
     display: flex;
     flex-direction: column;
     gap: 120px;
